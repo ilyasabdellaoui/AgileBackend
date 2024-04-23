@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:21-jdk
 VOLUME /tmp
 EXPOSE 8080
 ARG JAR_FILE=target/AgileBackend-0.0.1-SNAPSHOT.jar
