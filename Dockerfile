@@ -1,5 +1,4 @@
-FROM openjdk:18
-WORKDIR /app
-COPY ./target/AgileBackend-0.0.1-SNAPSHOT.jar /app
+FROM openjdk:17
 EXPOSE 8080
-CMD ["java", "-jar", "AgileBackend-0.0.1-SNAPSHOT.jar"]
+ARG JAR_FILE=target/AgileBackend-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java", "-jar", "${JAR_FILE}"]
