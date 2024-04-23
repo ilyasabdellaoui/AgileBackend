@@ -1,0 +1,10 @@
+org\sop\agilebackend\controllers\ProfessorController.class
+org\sop\agilebackend\AgileBackendApplication.class
+org\sop\agilebackend\services\ProfessorService.class
+org\sop\agilebackend\models\Professor.class
+org\sop\agilebackend\models\User.class
+org\sop\agilebackend\controllers\AdminController.class
+org\sop\agilebackend\models\Admin.class
+org\sop\agilebackend\repositories\AdminDao.class
+org\sop\agilebackend\repositories\ProfessorDao.class
+org\sop\agilebackend\services\AdminService.class
